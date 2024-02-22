@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    background-color: #303030;
+    color: #FFFFFF;
+    font-family: "inter";   
+}
+
+#TituloMenuSuperior{
+    font-size: 60px;
+    margin: 206px 0px 0px 62px;
+}
+
+#TextoMenuSuperior{
+    font-size: 20px;
+    margin: 40px 0px 120px 62px;    
+}
+
+#MenuInformativo{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
+}
+
+.numeros{
+    background-color: #f9f9f9;
+    margin:50px 0px 20px 120px;   
+}
+
+#SecaoFoto{
+    background-color: #FFFFFF;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+} 
+
+#Textos{
+    background-color: #FFFFFF;
+    margin: 300px 80px 260px 80px;
+}
+
+#TituloFoto{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 40px;
+}
+
+#TextoFoto{
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 24px;
+}
+
+#FotoIlustrativa{
+    background-color: #FFFFFF;
+    height: 620px;
+    margin-top: 80px;
+    margin-right: 47px;
+    margin-bottom: 20px;
+}
+
+#Formulario{
+    text-align: center;
+}
+
+#TituloFormulario{
+    margin-top: 100px
+}
+
+input{
+    background-color: #FFFFFF;
+    color: black;
+    width: 500px;
+    height: 70px;
+    margin-top: 60px;
+    padding-left: 15px;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 0px;
+    border-radius: 10px;   
+}
+
+button{
+    width: 300px;
+    height: 70px;
+    background-color: #C07212;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: "Raleway";
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #C07212;
+    color: #FFFFFF;
+    transform: translateY(-5px);
+    box-shadow: 0px 2px 5px 0px #ffffff95;
+    transition: 0.2s;
+}
+
+
+
